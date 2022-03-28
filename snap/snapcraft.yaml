@@ -1,0 +1,32 @@
+name: goapp
+version: 1.0.00
+summary: Go details
+description: Essential UI Widgets for Flutter is a set of ever-growing UI widgets package for developing rich and high-quality applications in iOS, Android, Web, Windows, macOS and Linux from a single code base, using Flutter framework.
+
+confinement: strict
+base: core18
+grade: stable
+
+slots:
+  dbus-goapp:
+    interface: dbus
+    bus: session
+    name: com.tripleafoodies.goapp
+
+apps:
+  goapp-gallery:
+    command: goapp
+    extensions: [flutter-dev]
+    plugs:
+    - network
+    - desktop
+    slots:
+      - dbus-goapp
+parts:
+  goapp:
+    source: .
+    plugin: flutter
+    flutter-target: lib/main.dart
+    stage-packages:
+      - libjsoncpp1
+

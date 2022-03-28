@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "451960519511",
+    "project_id": "goapp-727cf",
+    "storage_bucket": "goapp-727cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451960519511:android:3a1b091be0528a9ea95c12",
+        "android_client_info": {
+          "package_name": "com.tripleafoodies.goapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451960519511-b356b86232ed4fd6etv6iidt5kqhf2t7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tripleafoodies.goapp",
+            "certificate_hash": "d1b7d9ff4ce448cd07aa3708013cd827789e3b8e"
+          }
+        },
+        {
+          "client_id": "451960519511-2ddrde8heb3mju3a5q6n5phsc179v1s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfrYjKJ5EzVQSjz0cTUqt57AnnXaREBN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451960519511-2ddrde8heb3mju3a5q6n5phsc179v1s2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
