@@ -39,14 +39,6 @@ set(FLUTTER_MANAGED_DIR "${CMAKE_CURRENT_SOURCE_DIR}/flutter")
 # Flutter library and tool build rules.
 add_subdirectory(${FLUTTER_MANAGED_DIR})
 
-
-# The Firebase C++ library `firebase_app` is required,
-# and it must always be listed last.
-
-# Add the Firebase SDKs for the products you want to use in your app
-# For example, to use Firebase Authentication and Firebase Realtime Database
-set(firebase_libs firebase_auth firebase_database firebase_app)
-#target_link_libraries(${target_name} "${firebase_libs}")
 # System-level dependencies.
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(GTK REQUIRED IMPORTED_TARGET gtk+-3.0)
