@@ -16,7 +16,7 @@ slots:
 apps:
   goapp-gallery:
     command: goapp
-    extensions: [flutter-dev]
+    extensions: [flutter-stable]
     plugs:
     - network
     - desktop
