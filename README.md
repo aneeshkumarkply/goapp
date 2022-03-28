@@ -1,4 +1,4 @@
-# notes_firebase
+# Go App
 
 A new Flutter project.
 
