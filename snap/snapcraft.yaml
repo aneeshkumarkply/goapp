@@ -32,6 +32,8 @@ parts:
     plugin: flutter
     flutter-target: lib/main.dart
     stage-packages:
+      - libjsoncpp1
       - libsecret-1-dev
       - libsecret-1-0
+
 

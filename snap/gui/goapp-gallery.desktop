@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Go Application
 Comment=Demos & Examples of Syncfusion Flutter Widgets.
-Exec=goapp %U
+Exec=goapp
 Icon=${SNAP}/meta/gui/goapp-gallery.png
 Terminal=false
 Type=Application
